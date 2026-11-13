@@ -17,11 +17,13 @@ h2 {
     border: 2px solid #356782;
 }
 
+/*coding and work experience side by side*/
 .experience {
     display: flex;
     gap: 20px;
 }
 
+/*photo - right, and text - left */
 .top-section {
     display: flex;
     justify-content: space-between;
@@ -29,10 +31,37 @@ h2 {
     gap: 30px;
 }
 
+/*override rule*/
 .override {
     color: red;
 }
 
 .override {
     color: #356782;
+}
+
+/*narrow screen*/
+@media (max-width: 600px) {
+    .top-section {
+        flex-direction: column;
+    }
+
+    /*experience sections stacked on small screens*/
+    .experience {
+        flex-direction: column;
+    }
+}
+
+/*medium screen*/
+@media (min-width: 601px) and (max-width: 1024px) {
+    #profile-photo {
+        width: 240px;
+    }
+}
+
+/*wide browser views*/
+@media (min-width: 1025px) {
+    #profile-photo {
+        width: 360px;
+    }
 }
