@@ -10,3 +10,8 @@ h1,
 h2 {
     color: #356782
 }
+
+#profile-photo {
+    width: 150px;
+    height: auto;
+}
