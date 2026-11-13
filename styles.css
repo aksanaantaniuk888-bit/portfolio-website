@@ -92,7 +92,7 @@ nav {
     justify-content: flex-end;
     gap: 30px;
     padding: 20px;
-    background-color: #FFFFFF;
+    background-color: #78a7ff;
 }
 
 /*navigation bar text*/
@@ -100,4 +100,11 @@ nav a {
     color: #14233D;
     text-decoration: none;
     font-weight: 600;
+}
+
+/*name in navigation bar*/
+.nav-name {
+    margin-right: auto;
+    color: #14233D;
+    font-weight: 700;
 }
