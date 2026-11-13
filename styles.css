@@ -31,6 +31,26 @@ h2 {
     gap: 30px;
 }
 
+/*contact form layout*/
+form label {
+    display: block;
+    margin-top: 12px;
+}
+
+form input {
+    display: block;
+    width: 100%;
+    max-width: 420px;
+    box-sizing: border-box;
+}
+
+/*contact form border*/
+fieldset {
+    width: 100%;
+    max-width: 480px;
+    box-sizing: border-box;
+}
+
 /*override rule*/
 .override {
     color: red;
