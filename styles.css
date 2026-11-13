@@ -85,3 +85,19 @@ fieldset {
         width: 360px;
     }
 }
+
+/*navigation bar*/
+nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    padding: 20px;
+    background-color: #FFFFFF;
+}
+
+/*navigation bar text*/
+nav a {
+    color: #14233D;
+    text-decoration: none;
+    font-weight: 600;
+}
