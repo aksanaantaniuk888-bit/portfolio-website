@@ -14,9 +14,17 @@ h2 {
 #profile-photo {
     width: 150px;
     height: auto;
+    border: 2px solid #356782;
 }
 
 .experience {
     display: flex;
     gap: 20px;
+}
+
+.top-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
 }
