@@ -28,3 +28,11 @@ h2 {
     align-items: center;
     gap: 30px;
 }
+
+.override {
+    color: red;
+}
+
+.override {
+    color: #356782;
+}
