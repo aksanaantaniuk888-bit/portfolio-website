@@ -195,6 +195,11 @@ nav .contact-button {
         text-align: right;
         cursor: pointer;
         color: #14233D;
+        list-style: none;
+    }
+
+    .mobile-nav summary::-webkit-details-marker {
+        display: none;
     }
 
     .mobile-links {
