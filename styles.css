@@ -117,3 +117,12 @@ nav a {
     list-style: none;
     padding: 0;
 }
+
+/* featured project card */
+#projects article {
+    background-color: #FFFFFF;
+    border: 1px solid #DCE3EB;
+    border-radius: 12px;
+    padding: 20px;
+    max-width: 360px;
+}
