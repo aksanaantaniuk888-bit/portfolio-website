@@ -125,6 +125,15 @@ nav a {
     padding: 0;
 }
 
+/* skills buttons */
+#skills li {
+    padding: 10px 20px;
+    border: 1px solid #78A7FF;
+    border-radius: 25px;
+    color: #14233D;
+    font-weight: 600;
+}
+
 /* featured project card */
 #projects article {
     background-color: #FFFFFF;
