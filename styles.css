@@ -177,3 +177,13 @@ nav a {
     border-radius: 8px;
     background-color: #FFFFFF;
 }
+
+/* contact form button */
+#contact button {
+    background-color: #78A7FF;
+    color: #14233D;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
