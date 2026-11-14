@@ -21,6 +21,7 @@ h2 {
 .experience {
     display: flex;
     gap: 20px;
+    justify-content: center;
 }
 
 /*photo - right, and text - left */
@@ -200,6 +201,14 @@ nav .contact-button {
     max-width: 1100px;
     margin: 0 auto;
     padding: 0 24px;
+}
+
+/* center content sections */
+.experience,
+.bottom-section {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* adaptation to mobile */
