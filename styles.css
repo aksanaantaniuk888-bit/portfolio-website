@@ -136,3 +136,16 @@ nav a {
     border-radius: 8px;
     text-decoration: none;
 }
+
+/* bottom section layout */
+.bottom-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.bottom-section>section {
+    flex: 1;
+    min-width: 0;
+}
