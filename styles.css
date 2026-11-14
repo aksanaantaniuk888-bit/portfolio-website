@@ -220,6 +220,17 @@ nav .contact-button {
     margin-right: auto;
 }
 
+/* About Me button */
+#about-button {
+    background-color: #78A7FF;
+    color: #14233D;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
 /* adaptation to mobile */
 @media (max-width: 600px) {
 
