@@ -60,45 +60,6 @@ fieldset {
     color: #356782;
 }
 
-/* adaptation to mobile */
-@media (max-width: 600px) {
-    nav {
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 12px;
-    }
-
-    .top-section {
-        flex-direction: column;
-    }
-
-    .experience {
-        flex-direction: column;
-    }
-
-    .bottom-section {
-        flex-direction: column;
-    }
-
-    .bottom-section>section {
-        width: 100%;
-    }
-
-}
-
-/* adaptation to tablet */
-@media (min-width: 601px) and (max-width: 1024px) {
-    #profile-photo {
-        width: 240px;
-    }
-}
-
-/* adaptation to desktop */
-@media (min-width: 1025px) {
-    #profile-photo {
-        width: 360px;
-    }
-}
 
 /*navigation bar*/
 nav {
@@ -214,4 +175,64 @@ nav .contact-button {
     color: #FFFFFF;
     padding: 10px 18px;
     border-radius: 8px;
+}
+
+
+/* adaptation to mobile */
+@media (max-width: 600px) {
+
+    /* navigation on mobile */
+    .desktop-nav {
+        display: none;
+    }
+
+    .mobile-nav {
+        display: block;
+        width: 100%;
+    }
+
+    .mobile-nav summary {
+        text-align: right;
+        cursor: pointer;
+        color: #14233D;
+    }
+
+    .mobile-links {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 15px;
+        padding: 15px 0;
+    }
+
+    .top-section {
+        flex-direction: column;
+    }
+
+    .experience {
+        flex-direction: column;
+    }
+
+    .bottom-section {
+        flex-direction: column;
+    }
+
+    .bottom-section>section {
+        width: 100%;
+    }
+
+}
+
+/* adaptation to tablet */
+@media (min-width: 601px) and (max-width: 1024px) {
+    #profile-photo {
+        width: 240px;
+    }
+}
+
+/* adaptation to desktop */
+@media (min-width: 1025px) {
+    #profile-photo {
+        width: 360px;
+    }
 }
