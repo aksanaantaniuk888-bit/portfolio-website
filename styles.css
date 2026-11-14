@@ -60,26 +60,33 @@ fieldset {
     color: #356782;
 }
 
-/*narrow screen*/
+/* adaptation to mobile */
 @media (max-width: 600px) {
     .top-section {
         flex-direction: column;
     }
 
-    /*experience sections stacked on small screens*/
     .experience {
         flex-direction: column;
     }
+
+    .bottom-section {
+        flex-direction: column;
+    }
+
+    .bottom-section>section {
+        width: 100%;
+    }
 }
 
-/*medium screen*/
+/* adaptation to tablet */
 @media (min-width: 601px) and (max-width: 1024px) {
     #profile-photo {
         width: 240px;
     }
 }
 
-/*wide browser views*/
+/* adaptation to desktop */
 @media (min-width: 1025px) {
     #profile-photo {
         width: 360px;
