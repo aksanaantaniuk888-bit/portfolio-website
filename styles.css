@@ -195,6 +195,12 @@ nav .contact-button {
     border-radius: 8px;
 }
 
+/* page layout */
+.page-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
 
 /* adaptation to mobile */
 @media (max-width: 600px) {
