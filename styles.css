@@ -126,3 +126,13 @@ nav a {
     padding: 20px;
     max-width: 360px;
 }
+
+/* project link button */
+#projects article a {
+    display: inline-block;
+    background-color: #78A7FF;
+    color: #14233D;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+}
