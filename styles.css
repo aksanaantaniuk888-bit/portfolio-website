@@ -187,3 +187,11 @@ nav a {
     border-radius: 8px;
     cursor: pointer;
 }
+
+/* contact button in navbar */
+nav .contact-button {
+    background-color: #14233D;
+    color: #FFFFFF;
+    padding: 10px 18px;
+    border-radius: 8px;
+}
