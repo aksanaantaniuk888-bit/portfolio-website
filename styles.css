@@ -11,17 +11,32 @@ h2 {
     color: #356782
 }
 
+/*profile photo*/
 #profile-photo {
-    width: 150px;
+    width: 340px;
+    max-width: 100%;
     height: auto;
-    border: 2px solid #356782;
+    object-fit: contain;
+    border: none;
+    border-radius: 0;
 }
 
 /*coding and work experience side by side*/
 .experience {
     display: flex;
-    gap: 20px;
-    justify-content: center;
+    gap: 60px;
+    justify-content: space-between;
+}
+
+.experience section {
+    flex: 1;
+}
+
+/* Experience icons */
+.experience h2 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 /*photo - right, and text - left */
@@ -79,6 +94,30 @@ fieldset {
     color: #356782;
 }
 
+/* Code and Work Experience heading */
+.experience h2,
+.experience h2.override {
+    color: #356782;
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Experience lists */
+.experience ul {
+    list-style-type: disc;
+}
+
+/* Languages */
+
+#languages li span {
+    display: block;
+    font-size: 13px;
+    color: #777;
+
+}
 
 /*navigation bar*/
 nav {
