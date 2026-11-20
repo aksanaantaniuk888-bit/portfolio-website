@@ -32,6 +32,13 @@ h2 {
     flex: 1;
 }
 
+/* Experience icons */
+.experience h2 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
 /*photo - right, and text - left */
 .top-section {
     display: flex;
@@ -85,6 +92,17 @@ fieldset {
 
 .override {
     color: #356782;
+}
+
+/* Code and Work Experience heading */
+.experience h2,
+.experience h2.override {
+    color: #356782;
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 
