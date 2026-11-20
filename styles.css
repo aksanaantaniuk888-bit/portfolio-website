@@ -105,6 +105,10 @@ fieldset {
     gap: 10px;
 }
 
+/* Experience lists */
+.experience ul {
+    list-style-type: disc;
+}
 
 /*navigation bar*/
 nav {
