@@ -110,6 +110,15 @@ fieldset {
     list-style-type: disc;
 }
 
+/* Languages */
+
+#languages li span {
+    display: block;
+    font-size: 13px;
+    color: #777;
+
+}
+
 /*navigation bar*/
 nav {
     display: flex;
