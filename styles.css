@@ -250,6 +250,7 @@ nav a {
     border: none;
     border-radius: 8px;
     cursor: pointer;
+    margin-top: 15px;
 }
 
 /* contact button in navbar */
@@ -284,6 +285,20 @@ nav .contact-button {
     border-radius: 8px;
     cursor: pointer;
     margin-top: 10px;
+}
+
+/* Contact message field */
+#contact textarea {
+    display: block;
+    width: 100%;
+    max-width: 420px;
+    min-height: 120px;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid #DCE3EB;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    resize: vertical;
 }
 
 /* adaptation to mobile */
