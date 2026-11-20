@@ -13,18 +13,23 @@ h2 {
 
 /*profile photo*/
 #profile-photo {
-    width: 280px;
-    height: 310px;
-    object-fit: cover;
-    object-position: center top;
-    border-radius: 40px;
+    width: 340px;
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    border: none;
+    border-radius: 0;
 }
 
 /*coding and work experience side by side*/
 .experience {
     display: flex;
-    gap: 20px;
-    justify-content: center;
+    gap: 60px;
+    justify-content: space-between;
+}
+
+.experience section {
+    flex: 1;
 }
 
 /*photo - right, and text - left */
