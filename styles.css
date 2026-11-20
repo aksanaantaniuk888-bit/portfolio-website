@@ -218,6 +218,22 @@ nav a {
     max-width: 400px;
 }
 
+/* Get in Touch layout */
+.get-in-touch {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Contact illustration */
+.contact-illustration {
+    width: 320px;
+    max-width: 100%;
+    height: auto;
+    margin-top: 25px;
+}
+
 /* contact form inputs */
 #contact input {
     padding: 10px;
