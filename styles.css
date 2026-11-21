@@ -331,6 +331,34 @@ nav .contact-button {
     resize: vertical;
 }
 
+
+/* Paper plane flying animation */
+.paper-plane.fly {
+    z-index: 3;
+    animation: fly-away 2s ease-in forwards;
+}
+
+@keyframes fly-away {
+    0% {
+        opacity: 0;
+        transform: translate(0, 0);
+    }
+
+    10% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(90px, -240px);
+    }
+}
+
+
+
+
+
+
 /* adaptation to mobile */
 @media (max-width: 600px) {
 

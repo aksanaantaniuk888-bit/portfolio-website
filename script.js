@@ -27,3 +27,11 @@ aboutButton.addEventListener("click", () => {
         aboutButton.textContent = "Show More";
     }
 });
+// Make the paper plane fly when the Submit button is clicked
+const submitButton = document.querySelector("#contact button");
+const paperPlane = document.querySelector(".paper-plane");
+
+submitButton.addEventListener("click", () => {
+    event.preventDefault();
+    paperPlane.classList.add("fly");
+});
