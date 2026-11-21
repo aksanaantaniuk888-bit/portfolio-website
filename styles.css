@@ -234,6 +234,36 @@ nav a {
     margin-top: 25px;
 }
 
+/* Contact illustration container */
+.contact-visual {
+    position: relative;
+    width: 280px;
+    max-width: 100%;
+    margin: 25px auto;
+    overflow: hidden;
+}
+
+/* Envelope */
+.contact-visual .contact-illustration {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    z-index: 2;
+}
+
+/* Paper plane behind envelope */
+.paper-plane {
+    position: absolute;
+    width: 45px;
+    left: 46%;
+    bottom: 26%;
+    z-index: 1;
+    opacity: 0;
+    pointer-events: none;
+}
+
 /* contact form inputs */
 #contact input {
     padding: 10px;
